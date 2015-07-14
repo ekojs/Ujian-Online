@@ -1,0 +1,243 @@
+body{
+	margin:0;
+	}	
+#header{
+	margin-top:-50px;
+	background:#1A1A1A;
+	color:#FFFFFF;
+	height:40px;
+	position:fixed;
+	width:100%;
+	padding:5px;
+	font-size:105%;
+	z-index:999;
+	}
+#h_item_kiri{
+	float:left;
+	margin-left:40px;
+	}		
+#h_item_kanan{
+	float:right;
+	margin-right:40px;
+	}
+#timer{
+	width:100px;
+	border-radius:4px;
+	border:1px #FFFFFF solid;
+	margin:4 auto;
+	padding:4px;
+	text-align:center;
+	font-size:120%;
+	background:#FFFFFF;
+	color:#000000;
+	font-weight:bolder;
+	}	
+#timer:hover{
+	background:#000000;
+	color:#FFFFFF;
+	border:1px #000000 solid;
+	}
+div.h_item div{
+	float:left;
+//	width:100px;
+	margin-left:10px;
+	}		
+div.item_kiri{
+	width:150px;
+	}
+#tempat_soal{
+	margin:0 auto;
+	padding:50px;
+	padding-left:80px;
+//	border:1px solid red;
+	background:#FFFFFF;
+	}
+div.soal_ujian{
+	padding:3px;
+	margin:3px;
+	border-bottom:1px solid gray;
+	}
+div.no_soal{
+	float:left;
+	}
+div.isi_soal{
+	margin-left:25px;
+	border-radius:5px;
+//	overflow:auto;
+	}
+div.isi_soal:hover{
+	background:#F6F4F4;
+	}		
+div.pertanyaan{
+	padding:0px 5px 5px 0px;
+	}
+	
+div.pilihan_jawaban{
+	overflow:auto;
+	padding:2px;
+	}		
+div.pilihan_jawaban:hover{
+	background:#E8E6E6;
+	cursor:pointer;
+	}
+div.pilihan_jawaban>input[type=radio]{
+	position:absolute;
+	//margin-top:1%;
+	vertical-align:middle;
+	width:20px;
+	padding:5px;
+}	
+div.pilihan_jawaban>input[type=radio]:hover{
+	cursor:pointer;
+}
+div.pilihan_jawaban>textarea{
+	border-radius:2px;
+	border:1px solid #BFBFBF;
+	margin-left:25px;
+	width:80%;
+//	height:50px;
+	}
+		
+.highlight{
+	color:red;
+	}								
+.tombol{
+	border-radius:3px;
+	border:1px solid #000000;
+	background:#000000;
+	color:#FFFFFF;
+	padding:3px;
+	font-size:90%;
+	font-weight:bolder;
+	margin:2px;
+	}	
+.tombol:hover{
+	cursor:pointer;
+	}
+.inputan{
+	border-radius:4px;
+	border:1px solid #000000;
+	padding:2px;
+	font-size:90%;
+	}
+.daftar_pelajaran{
+	background:#FFFFFF;
+	}	
+.tombol_mini{
+	border-radius:4px;
+	border:1px solid #000000;
+	background:#000000;
+	color:#FFFFFF;
+	padding:1px;
+	font-size:80%;
+	font-weight:bolder;
+	margin:2px;
+	}	
+.tombol_mini:hover{
+	cursor:pointer;
+	}	
+.kembali{
+	position:fixed;
+	top:40%;
+	left:1px;
+	padding-left:20px;
+	border:1px solid gray;
+	border-radius:4px;
+	background:url('../image/back.png') no-repeat #E5E5E5;
+	z-index:20;
+	}	
+.kembali:hover{
+	cursor:pointer;
+	}
+.edit,.hapus,.tambah,.batal,.simpan,.reset,.sukses,.loading,.view,.info{
+	padding-left:20px;
+	color:#000000;
+	}	
+.edit{
+	background:url('../image/edit.png') no-repeat left #E5E5E5;
+	}	
+.hapus{
+	background:url('../image/del.png') no-repeat left #E5E5E5;
+	}	
+.tambah{
+	background:url('../image/add-icon.gif') no-repeat left #E5E5E5;
+	}
+.simpan{
+	background:url('../image/save.png') no-repeat left #E5E5E5;
+	}		
+.batal{
+	background:url('../image/no.png') no-repeat left #E5E5E5;
+	}		
+.reset{
+	background:url('../image/reset.png') no-repeat left #E5E5E5;
+	}
+.sukses{
+	background:url('../image/ok.png') no-repeat left #E5E5E5;
+	}	
+.loading{
+	background:url('../image/loading.gif') no-repeat left #E5E5E5;
+	}			
+.view{
+	background:url('../image/b_view.png') no-repeat left #E5E5E5;
+	}		
+.sedang_diedit{
+	background:#DDF76D;
+	}				
+.telah_diedit{
+	background:#BFF0BF;
+	}	
+.info{
+	background:url('../image/s_info.png') no-repeat left #E5E5E5;
+	display:none;
+	}
+/* untuk menu utama */
+#nav_menu{
+	position:fixed;
+	width:100%;
+	background:url('../image/logo.gif') center no-repeat #E5E5E5;
+	height:40px;
+	z-index:999;
+	border:1px solid #000000;
+	}
+#nav_menu ul,#nav_menu li{
+	list-style:none;
+	float:left;
+	margin:3px;
+	padding:4px;
+	font-size:90%;
+	}
+#nav_menu ul.menu_kanan{
+	float:right;
+	}		
+#nav_menu li{
+	border-radius:3px;
+	font-weight:bolder;
+	}
+#nav_menu li:hover{
+	background:#FFFFFF;
+	border:1px solid #000000;
+	}	
+#nav_menu li:hover > a{
+	color:#000000;
+	}		
+#nav_menu li a{
+	color:#FFFFFF;
+	text-decoration: none;
+	}			
+#content{
+	font-size:80%;
+	padding-top:50px;
+	min-height:200px;
+	}
+.menu_terpilih{
+	background:#109210;
+	border:1px solid #109210;
+	}		
+.menu_awal{
+	background:#1A1A1A;
+	border:1px solid #1A1A1A;
+	}	
+fieldset{
+	border-radius:3px;
+	border:2px solid #000000;
+	}			

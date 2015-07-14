@@ -1,0 +1,15 @@
+install databasenya
+buat database
+eksekusi query pada file sql/tabel_saja.sql (bisa diimport atau eksekusi query/tab SQL pada phpmyadmin)
+eksekusi query pada file sql/trigger.sql (tab SQL pada phpmyadmin)
+eksekusi query pada file sql/view.sql (tab SQL pada phpmyadmin)
+edit koneksi ke database
+edit file include/koneksi.php, sesuaikan nama host, username dan password database
+konfigurasi untuk fmath_editor ( untuk menulis rumus )
+edit file js/plugins/fmath_formula/dialogs/configMathMLEditor.xml, edit baris ke-24 sesuaikan urlnya
+edit file js/plugins/fmath_formula/dialogs/editor.html (untuk mengatur lebar dan tinggi editor / biarkan juga gak papa)
+edit file rumus_fmath/imageCapture.php baris ke-12 sesuaikan urlnya
+
+konfigurasi tempat penyimpanan gambar ckfinder
+edit file js/ckfinder/config.php
+edit baris 66 berdasarkan nama folder anda, misal nama folder kita online_test maka $baseUrl = '/online_test/userfiles/';
